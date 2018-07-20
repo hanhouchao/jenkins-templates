@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: Clone code and builds a docker image
     alauda.io/readme.zh-CN: 克隆代码并构建镜像
     alauda.io/readme.en: Clone code and builds a docker image
-    alauda.io/version: v0.2.2
+    alauda.io/version: v0.2.3
     alauda.io/style.icon: build
   labels:
     category: CICD
@@ -42,7 +42,7 @@ spec:
         - name: BuildImage
           type: public/alaudaBuildImage
           options:
-            timeout: 3600
+            timeout: 360
   arguments:
     - displayName:
         zh-CN: 配置SonarQube代码扫描
